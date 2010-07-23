@@ -15,6 +15,8 @@ class ngOpenGraphObjectRelation extends ngOpenGraphBase
 		{
 			return trim($relationObject->attribute('name'));
 		}
+		
+		return "";
 	}
 }
 
